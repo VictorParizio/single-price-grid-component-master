@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.page {
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.page .info {
+    background-color: var(--bg-head);
+    height: 208px;
+    width: 610px;
+    padding: 38px 30px;
+    border-radius: 7px 7px 0 0;
+}
+
+.page .info .title {
+    color: var(--destaque);
+    font-size: 2.4rem;
+    margin-bottom: 22px;
+}
+
+.page .info .sub-title {
+    color: var(--contraste);
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.page .info .description {
+    line-height: 23px;
+}
+
+.page .container .plano,
+.page .container .about {
+    color: var(--bg-head);
+    height: 248px;
+    width: 305px;
+    padding: 30px;
+}
+
+.page .container .plano {
+    background-color: var(--destaque);
+    border-bottom-left-radius: 7px;
+}
+
+.page .container .plano .subscription {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.page .container .plano .price {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.page .container .plano span {
+    color: var(--about);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.page .container .plano .access {
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+
+.page .container .plano button {
+    background-color: var(--contraste);
+    color: var(--bg-head);
+    font-weight: 700;
+    text-align: center;
+    height: 46px;
+    width: 245px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 28px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.page .container .plano button:hover {
+    background-color: var(--about);
+}
+
+.page .container .about {
+    background-color: var(--about);
+    border-bottom-right-radius: 7px;
+}
+
+.page .container .about h2 {
+    font-size: 1.6rem;
+}
+
+.page .container .about p {
+    font-size: 1.2rem;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.attribution,
+.attribution a {
+    color: var(--destaque);
+    font-size: 1.4rem;
+    margin: 15px 0;
+}
+
+.attribution a {
+    color: var(--contraste);
+    transition: 0.3s ease-in-out;
+}
+
+.attribution a:hover {
+    color: var(--contraste);
+    font-weight: 700;
+}

@@ -1,0 +1,8 @@
+:root{
+    --bg-page: hsl(204, 43%, 93%);
+    --destaque: hsl(179, 62%, 43%);
+    --about: hsl(179, 55%, 47%);
+    --contraste: hsl(71, 73%, 54%);
+    --bg-head: hsl(0, 0%, 100%);
+    --base: hsl(218, 22%, 67%);
+}

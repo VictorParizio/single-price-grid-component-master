@@ -1,0 +1,17 @@
+html{
+    background-color: var(--bg-page);
+    font-size: 62.5%;
+    font-weight: 400;
+    color: var(--base);
+}
+
+*{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}

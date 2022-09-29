@@ -1,0 +1,39 @@
+@media (max-width: 637px) {
+    body{
+        height: 100%;
+    }
+
+    .page {
+        margin: 50px 20px 0;
+    }
+    
+    .page .info {
+        height: 300px;
+        width: 305px;
+        padding: 30px;
+    }
+
+    .page .info .title {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+    
+    .page .info .sub-title {
+        font-size: 1.6rem;
+        margin-bottom: 14px;
+    }
+    
+    .page .info .description {
+        font-size: 1.4rem;
+        line-height: 23px;
+    }
+
+    .page .container .plano {
+        background-color: var(--destaque);
+        border-bottom-left-radius: 0;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+}
